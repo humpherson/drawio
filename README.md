@@ -1,11 +1,15 @@
-About
------
+---
+layout: forward
+target: https://drawio.objetd.co.uk/src/main/webapp/index.html
+---
+
+## About
+
 draw.io, this project, is a configurable diagramming/whiteboarding visualization application. draw.io is jointly owned and developed by JGraph Ltd and draw.io AG.
 
 As well as running this project, we run a production-grade deployment of the diagramming interface at https://app.diagrams.net.
 
-License
------------------
+## License
 
 The source code authored by us in this repo is licensed under a modified Apache v2 license. This project is not an open source project as a result.
 
@@ -15,8 +19,7 @@ Additional minified JavaScript files and Java libraries are used in this project
 
 We make no copyright claim on the content you create with this software, regardless of the copyright of individual icons used in such content.
 
-Scope of the Project
---------------------
+## Scope of the Project
 
 draw.io is a diagramming or whiteboarding application, depending on which theme is selected. It is not an SVG editing app, the SVG export is designed only for embedding in web pages, not for further editing in other tools.
 
@@ -26,8 +29,7 @@ Note, in particular, we don't have support for collaborative editing in this pro
 
 If you are using a draw.io project/product and have issues or questions about the editor itself, the issue tracker and discussion in this GitHub project are likely a good place to look.
 
-Running
--------
+## Running
 
 One way to run draw.io is to fork this project, [publish the master branch to GitHub pages](https://help.github.com/categories/github-pages-basics/) and the [pages sites](https://jgraph.github.io/drawio/src/main/webapp/index.html) will have the full editor functionality (sans the integrations).
 
@@ -35,20 +37,17 @@ Another way is to use [the recommended Docker project](https://github.com/jgraph
 
 The full packaged .war of the client and servlets is built when the project is tagged and available on the [releases page](https://github.com/jgraph/draw.io/releases).
 
-Supported Browsers
-------------------
+## Supported Browsers
 
 draw.io supports Chrome 98+, Firefox 94+, Safari 15.4+, Opera 84+, WebView Android 98+, Safari iOS 15.4+ and Edge 98+.
 
-This project is not open-contribution
-------------------------------------------------------
+## This project is not open-contribution
 
 draw.io is also closed to contributions, as it's not open source. We follow a development process compliant with our SOC 2 Type II process. We do not have a mechanism where we can accept contributions from non-staff members.
 
 draw.io is not suitable as a framework for building other products from. For this try either [Tldraw](https://github.com/tldraw/tldraw) or [Excalidraw](https://github.com/excalidraw/excalidraw).
 
-Logo and trademark usage
-------------------------
+## Logo and trademark usage
 
 draw.io is a registered EU trademark, #018062448
 
